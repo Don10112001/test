@@ -1,9 +1,7 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import plotly.express as px
 import streamlit as st
 
+# Set page config
 st.set_page_config(
     page_title="Pharma Sales",
     page_icon="💊",
@@ -27,8 +25,7 @@ if df is not None:
     if tab_selected == "Dashboard":
         st.markdown("# 💊 PHARMA | SALES ANALYSIS")
         st.write("## Dashboard")
-
-        # Rest of your dashboard code
+        # Add dashboard components here
 
     elif tab_selected == "Summary":
         st.title("Summary")
